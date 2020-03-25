@@ -491,7 +491,7 @@ $ui->PrintPage();
 
 		})
 		.error (function(mesg) {
-			statuszone.text('Status refresh error: ' + mesg + ' ... pleasse wait');
+			statuszone.text('Status refresh error: ' + mesg + ' ... please wait');
 			setTimeout(refreshStatus, 5000);
 		})
 		;
